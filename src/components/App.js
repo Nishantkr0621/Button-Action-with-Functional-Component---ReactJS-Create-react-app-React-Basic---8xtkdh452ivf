@@ -5,7 +5,7 @@ function App() {
   const [para, setPara] = useState("");
   const paraFun = () => {
     setPara(
-      "Hello, I've learnt to use the full-stack evaluation tool.This makes me so happy"
+      "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
     );
   };
   return (
