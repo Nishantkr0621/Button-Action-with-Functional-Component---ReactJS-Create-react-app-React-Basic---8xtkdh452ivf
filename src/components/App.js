@@ -10,7 +10,7 @@ const App = () => {
 	//	  else {
 	//		  setState(true);
 //		  }
-      state == true ? ! state : null ;
+      state == true ?  setState(false) : setState(true) ;
 	  }
   return (
     <div id="main">
